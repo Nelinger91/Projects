@@ -1,0 +1,64 @@
+amitnelinger
+
+=============================
+=      Files     =
+=============================
+imReadAndConvert.m
+blurInImageSpace.m
+GaussianPyramid.m
+pyramidBlending.m
+Reduce.m
+nonMaximumSuppression.m
+examplePanoramas.m
+GeneratePanorama.m
+spreadOutCorners.m
+
+**matchFeatures.m - 
+% checks for descriptors of 2 images which descriptor (representing a
+% feature point) in desc1 fits the descriptor in desc2. returns the
+% indices of the matches.
+
+**findFeatures.m - 
+% The function calculates the features and descriptors of an image
+% (receiving a gaussian pyramid of the image) and returns it.
+
+**sampleDescriptor.m - 
+% The function receives an image 'im'. Nx2 array 'pos
+% of features coords. and descRad, that describes the size of 
+%the descriptor. and returns kxkxN matrix which is N descriptors.
+
+**displayMatches.m - 
+% the function shows the good matches we found in yellow lines. bad matches
+% in blue line. and showing each position of a feature point as a red dot.
+
+**applyHomography.m - 
+% the function receives coordinates as 'pos1' and transforms it using
+% homography H12.
+
+**accumlateHomographies.m - 
+% the function calculates an homographs to a certain image in location
+% 'm' using the set of homographs from im i to im i+1
+
+**HarrisCornerDetector.m -
+ % A function recieving an image and finding the feature points of the
+% image.
+
+**homNorm.M-
+% Normalizing the homographs.
+
+**ransacHomography.m-
+% A random function. does 'numIters' iterations to discover what
+% homography is the best describing the correlation between pos1 and pos2.
+% returns the best homgraphy and the features point that are moving well
+% using the homography (are less then the inlierTol)
+
+**renderPanorama.m-
+% rendering the panorama we made. using 'H' the homographies and 'im'
+% m images that we use to create the panorama
+
+
+
+=============================
+=          Version          =
+=============================
+Matlab R2015a 64 bit on mac.

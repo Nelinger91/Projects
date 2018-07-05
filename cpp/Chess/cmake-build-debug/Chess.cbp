@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Chess"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/amitnelinger/Desktop/Uni/Third year/cpp/Chess/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/amitnelinger/Desktop/Uni/Third\ year/cpp/Chess/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/amitnelinger/Desktop/Uni/Third\ year/cpp/Chess/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/amitnelinger/Desktop/Uni/Third\ year/cpp/Chess/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/amitnelinger/Desktop/Uni/Third\ year/cpp/Chess/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/amitnelinger/Desktop/Uni/Third year/cpp/Chess/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/amitnelinger/Desktop/Uni/Third\ year/cpp/Chess/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/amitnelinger/Desktop/Uni/Third\ year/cpp/Chess/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/amitnelinger/Desktop/Uni/Third\ year/cpp/Chess/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/amitnelinger/Desktop/Uni/Third\ year/cpp/Chess/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/amitnelinger/Desktop/Uni/Third year/cpp/Chess/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/amitnelinger/Desktop/Uni/Third\ year/cpp/Chess/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/amitnelinger/Desktop/Uni/Third\ year/cpp/Chess/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/amitnelinger/Desktop/Uni/Third\ year/cpp/Chess/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/amitnelinger/Desktop/Uni/Third\ year/cpp/Chess/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chess">
+				<Option output="/Users/amitnelinger/Desktop/Uni/Third year/cpp/Chess/cmake-build-debug/Chess" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/amitnelinger/Desktop/Uni/Third year/cpp/Chess/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/amitnelinger/Desktop/Uni/Third\ year/cpp/Chess/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chess"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/amitnelinger/Desktop/Uni/Third\ year/cpp/Chess/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/amitnelinger/Desktop/Uni/Third\ year/cpp/Chess/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/amitnelinger/Desktop/Uni/Third\ year/cpp/Chess/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chess/fast">
+				<Option output="/Users/amitnelinger/Desktop/Uni/Third year/cpp/Chess/cmake-build-debug/Chess" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/amitnelinger/Desktop/Uni/Third year/cpp/Chess/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/amitnelinger/Desktop/Uni/Third\ year/cpp/Chess/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chess/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/amitnelinger/Desktop/Uni/Third\ year/cpp/Chess/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/amitnelinger/Desktop/Uni/Third\ year/cpp/Chess/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/amitnelinger/Desktop/Uni/Third\ year/cpp/Chess/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/amitnelinger/Desktop/Uni/Third year/cpp/Chess/Bishop.cpp">
+			<Option target="Chess"/>
+		</Unit>
+		<Unit filename="/Users/amitnelinger/Desktop/Uni/Third year/cpp/Chess/Bishop.h">
+			<Option target="Chess"/>
+		</Unit>
+		<Unit filename="/Users/amitnelinger/Desktop/Uni/Third year/cpp/Chess/GamePiece.cpp">
+			<Option target="Chess"/>
+		</Unit>
+		<Unit filename="/Users/amitnelinger/Desktop/Uni/Third year/cpp/Chess/GamePiece.h">
+			<Option target="Chess"/>
+		</Unit>
+		<Unit filename="/Users/amitnelinger/Desktop/Uni/Third year/cpp/Chess/King.cpp">
+			<Option target="Chess"/>
+		</Unit>
+		<Unit filename="/Users/amitnelinger/Desktop/Uni/Third year/cpp/Chess/King.h">
+			<Option target="Chess"/>
+		</Unit>
+		<Unit filename="/Users/amitnelinger/Desktop/Uni/Third year/cpp/Chess/Knight.cpp">
+			<Option target="Chess"/>
+		</Unit>
+		<Unit filename="/Users/amitnelinger/Desktop/Uni/Third year/cpp/Chess/Knight.h">
+			<Option target="Chess"/>
+		</Unit>
+		<Unit filename="/Users/amitnelinger/Desktop/Uni/Third year/cpp/Chess/Pawn.cpp">
+			<Option target="Chess"/>
+		</Unit>
+		<Unit filename="/Users/amitnelinger/Desktop/Uni/Third year/cpp/Chess/Pawn.h">
+			<Option target="Chess"/>
+		</Unit>
+		<Unit filename="/Users/amitnelinger/Desktop/Uni/Third year/cpp/Chess/Queen.cpp">
+			<Option target="Chess"/>
+		</Unit>
+		<Unit filename="/Users/amitnelinger/Desktop/Uni/Third year/cpp/Chess/Queen.h">
+			<Option target="Chess"/>
+		</Unit>
+		<Unit filename="/Users/amitnelinger/Desktop/Uni/Third year/cpp/Chess/Rook.cpp">
+			<Option target="Chess"/>
+		</Unit>
+		<Unit filename="/Users/amitnelinger/Desktop/Uni/Third year/cpp/Chess/Rook.h">
+			<Option target="Chess"/>
+		</Unit>
+		<Unit filename="/Users/amitnelinger/Desktop/Uni/Third year/cpp/Chess/chess.cpp">
+			<Option target="Chess"/>
+		</Unit>
+		<Unit filename="/Users/amitnelinger/Desktop/Uni/Third year/cpp/Chess/chess.h">
+			<Option target="Chess"/>
+		</Unit>
+		<Unit filename="/Users/amitnelinger/Desktop/Uni/Third year/cpp/Chess/emptyPiece.cpp">
+			<Option target="Chess"/>
+		</Unit>
+		<Unit filename="/Users/amitnelinger/Desktop/Uni/Third year/cpp/Chess/emptyPiece.h">
+			<Option target="Chess"/>
+		</Unit>
+		<Unit filename="/Users/amitnelinger/Desktop/Uni/Third year/cpp/Chess/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

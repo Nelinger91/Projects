@@ -1,0 +1,60 @@
+amitnelinger
+
+=============================
+=      Files description     =
+=============================
+
+
+———FUNCTIONS————
+
+**LaplacianPyramid.m - the function creates a laplacian pryamid with "maxLevels" levels and 
+blurs the levels with gaussian filter of size "filterSize"
+
+**GaussianPyramid.m - the function creates a gaussian pryamid with "maxLevels" levels and 
+%blurs the levels with gaussian filter of size "filterSize"
+
+**LaplacianToImage.m -  creates an image from a Laplacian pyramid
+
+**renderPyramid.m - the function receives a pyramid and number of levels
+and render the image so the first level will be to the left
+the next level will be aligned to upper edge to the right of the first 
+image and so on, till level "levels"
+
+**displayPyramid.m - The function uses renderPyramid to get a new image showing "levels" levels 
+of the pyramid and displays it
+
+*pyramidBlending -  The function recieves two images to blend, a mask (all of the same size)
+and creates 2 laplacian pryamids from the image (with maxLevels, and 
+filter size) and another gaussian pryamid from the mask.
+then its creates a new lalpacian prymaid using those 3 pryamids 
+and creates a new blended image out of it.
+
+*Expand.m - this function take and image and a filter.blurs it, and then expands it size by 2.
+
+*Reduce.m - this function take and image and a filter.blurs it, and then reduces it size by 2.
+
+*linearStretch.m - the function gets an image, and does a linear stretch between 0 and 1
+
+
+———SCRIPTS————
+BlendingExample1.m
+BlendingExample2.m
+
+——IMAGES——
+bib.jpg
+dog.jpg
+mask.jpg
+
+
+car.jpg
+clowns.jpg
+mask2.jpg
+
+
+
+
+
+=============================
+=          Version          =
+=============================
+Matlab R2015a 64 bit on mac.

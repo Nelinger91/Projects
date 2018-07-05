@@ -1,0 +1,104 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/amitnelinger/Desktop/Uni/Third year/cpp/Chess/Bishop.cpp
+Bishop.h
+/Users/amitnelinger/Desktop/Uni/Third year/cpp/Chess/Bishop.h
+
+/Users/amitnelinger/Desktop/Uni/Third year/cpp/Chess/Bishop.h
+GamePiece.h
+/Users/amitnelinger/Desktop/Uni/Third year/cpp/Chess/GamePiece.h
+
+/Users/amitnelinger/Desktop/Uni/Third year/cpp/Chess/GamePiece.cpp
+GamePiece.h
+/Users/amitnelinger/Desktop/Uni/Third year/cpp/Chess/GamePiece.h
+iostream
+-
+
+/Users/amitnelinger/Desktop/Uni/Third year/cpp/Chess/GamePiece.h
+string
+-
+vector
+-
+
+/Users/amitnelinger/Desktop/Uni/Third year/cpp/Chess/King.cpp
+King.h
+/Users/amitnelinger/Desktop/Uni/Third year/cpp/Chess/King.h
+
+/Users/amitnelinger/Desktop/Uni/Third year/cpp/Chess/King.h
+GamePiece.h
+/Users/amitnelinger/Desktop/Uni/Third year/cpp/Chess/GamePiece.h
+
+/Users/amitnelinger/Desktop/Uni/Third year/cpp/Chess/Knight.cpp
+Knight.h
+/Users/amitnelinger/Desktop/Uni/Third year/cpp/Chess/Knight.h
+
+/Users/amitnelinger/Desktop/Uni/Third year/cpp/Chess/Knight.h
+GamePiece.h
+/Users/amitnelinger/Desktop/Uni/Third year/cpp/Chess/GamePiece.h
+
+/Users/amitnelinger/Desktop/Uni/Third year/cpp/Chess/Pawn.cpp
+Pawn.h
+/Users/amitnelinger/Desktop/Uni/Third year/cpp/Chess/Pawn.h
+
+/Users/amitnelinger/Desktop/Uni/Third year/cpp/Chess/Pawn.h
+GamePiece.h
+/Users/amitnelinger/Desktop/Uni/Third year/cpp/Chess/GamePiece.h
+
+/Users/amitnelinger/Desktop/Uni/Third year/cpp/Chess/Queen.cpp
+Queen.h
+/Users/amitnelinger/Desktop/Uni/Third year/cpp/Chess/Queen.h
+
+/Users/amitnelinger/Desktop/Uni/Third year/cpp/Chess/Queen.h
+GamePiece.h
+/Users/amitnelinger/Desktop/Uni/Third year/cpp/Chess/GamePiece.h
+
+/Users/amitnelinger/Desktop/Uni/Third year/cpp/Chess/Rook.cpp
+Rook.h
+/Users/amitnelinger/Desktop/Uni/Third year/cpp/Chess/Rook.h
+
+/Users/amitnelinger/Desktop/Uni/Third year/cpp/Chess/Rook.h
+GamePiece.h
+/Users/amitnelinger/Desktop/Uni/Third year/cpp/Chess/GamePiece.h
+
+/Users/amitnelinger/Desktop/Uni/Third year/cpp/Chess/chess.cpp
+chess.h
+/Users/amitnelinger/Desktop/Uni/Third year/cpp/Chess/chess.h
+iostream
+-
+
+/Users/amitnelinger/Desktop/Uni/Third year/cpp/Chess/chess.h
+vector
+-
+GamePiece.h
+/Users/amitnelinger/Desktop/Uni/Third year/cpp/Chess/GamePiece.h
+Pawn.h
+/Users/amitnelinger/Desktop/Uni/Third year/cpp/Chess/Pawn.h
+King.h
+/Users/amitnelinger/Desktop/Uni/Third year/cpp/Chess/King.h
+Bishop.h
+/Users/amitnelinger/Desktop/Uni/Third year/cpp/Chess/Bishop.h
+Queen.h
+/Users/amitnelinger/Desktop/Uni/Third year/cpp/Chess/Queen.h
+emptyPiece.h
+/Users/amitnelinger/Desktop/Uni/Third year/cpp/Chess/emptyPiece.h
+Knight.h
+/Users/amitnelinger/Desktop/Uni/Third year/cpp/Chess/Knight.h
+Rook.h
+/Users/amitnelinger/Desktop/Uni/Third year/cpp/Chess/Rook.h
+string
+-
+
+/Users/amitnelinger/Desktop/Uni/Third year/cpp/Chess/emptyPiece.cpp
+emptyPiece.h
+/Users/amitnelinger/Desktop/Uni/Third year/cpp/Chess/emptyPiece.h
+
+/Users/amitnelinger/Desktop/Uni/Third year/cpp/Chess/emptyPiece.h
+GamePiece.h
+/Users/amitnelinger/Desktop/Uni/Third year/cpp/Chess/GamePiece.h
+

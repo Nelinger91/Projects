@@ -1,0 +1,58 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/amitnelinger/Desktop/Uni/Third year/cpp/Matrix/Complex.cpp
+Complex.h
+/Users/amitnelinger/Desktop/Uni/Third year/cpp/Matrix/Complex.h
+cmath
+-
+limits
+-
+iostream
+-
+
+/Users/amitnelinger/Desktop/Uni/Third year/cpp/Matrix/Complex.h
+string
+-
+iostream
+-
+limits
+-
+
+/Users/amitnelinger/Desktop/Uni/Third year/cpp/Matrix/GenericMatrixDriver.cpp
+iostream
+-
+cassert
+-
+vector
+-
+string
+-
+cstdlib
+-
+sstream
+-
+iostream
+-
+sstream
+-
+stdlib.h
+-
+Matrix.hpp
+/Users/amitnelinger/Desktop/Uni/Third year/cpp/Matrix/Matrix.hpp
+Complex.h
+/Users/amitnelinger/Desktop/Uni/Third year/cpp/Matrix/Complex.h
+
+/Users/amitnelinger/Desktop/Uni/Third year/cpp/Matrix/Matrix.hpp
+vector
+-
+exception
+-
+Complex.h
+/Users/amitnelinger/Desktop/Uni/Third year/cpp/Matrix/Complex.h
+
